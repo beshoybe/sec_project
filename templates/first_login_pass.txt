@@ -1,0 +1,10 @@
+Dear, Admin
+
+To login to your account please use these data:
+
+username : {{ username }}
+password : {{ password }}
+
+Sincerely
+
+Logharitm Support Team

@@ -1,0 +1,10 @@
+Dear, User
+
+To verify your account please use this code:
+
+{{ otp }}
+
+
+Sincerely
+
+SEC Support Team
