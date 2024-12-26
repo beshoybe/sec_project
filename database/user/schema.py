@@ -10,7 +10,7 @@ class UserSchema(SQLAlchemySchema):
     email = fields.String(required=True)
     password = fields.String(required=True, load_only=True)
     name = fields.String(required=True)
-    role = fields.String(required=True)
+    role = fields.String(required=False)
     created_at = fields.DateTime(dump_only=True)
     updated_at = fields.DateTime(dump_only=True)
     udpated_by = fields.String(dump_only=True)

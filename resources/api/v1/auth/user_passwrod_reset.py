@@ -10,7 +10,7 @@ from resources.decorators.jwt_decorator import jwt_needed
 from services.crypto_utils import decrypt_data, encrypt_data
 
 
-class UserPasswordReset(Resource):
+class UserPasswordResetApi(Resource):
     @jwt_needed
     def post(self):
         encrypted_data = request.get_json.get("encrypted_data")

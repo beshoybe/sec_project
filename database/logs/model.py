@@ -3,6 +3,7 @@ class Logs(db.Model):
     __tablename__ = 'logs'
     id = db.Column(db.Integer, primary_key=True)
     action = db.Column(db.String(120), nullable=False)
+    ip = db.Column(db.String(120), nullable=False)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
 
